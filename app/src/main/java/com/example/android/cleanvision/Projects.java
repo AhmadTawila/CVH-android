@@ -11,6 +11,7 @@ public class Projects {
 
     String endDate;
 
+
     public Projects(String ti, String add, String desc, String startdate, String enddate){
         title = ti;
         address = add;

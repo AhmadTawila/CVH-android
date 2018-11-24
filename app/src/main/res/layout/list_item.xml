@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:padding="16dp">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/red"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/image"
+            >
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="Title: " />
+                    android:text="Title: "
+                    android:textColor="#49c4af" />
+
                 <TextView
                     android:id="@+id/title_issue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_title" />
+                    android:text="@string/txt_title"
+                    android:textColor="#003366"
+                    android:textStyle="bold"/>
         </LinearLayout>
 
         <LinearLayout
@@ -25,14 +47,17 @@
             android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="Address: " />
+                    android:text="Address: "
+                    android:textColor="#49c4af" />
                 <TextView
                     android:id="@+id/address_issue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_address" />
+                    android:text="@string/txt_address"
+                    android:textColor="#003366"
+                    android:textStyle="bold"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,14 +65,17 @@
             android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="Description: " />
+                    android:text="Description: "
+                    android:textColor="#49c4af" />
                 <TextView
                     android:id="@+id/description_issue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_desc" />
+                    android:text="@string/txt_desc"
+                    android:textColor="#003366"
+                    android:textStyle="bold"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,14 +83,17 @@
             android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="Start Date: " />
+                    android:text="Start Date: "
+                    android:textColor="#49c4af" />
                 <TextView
                     android:id="@+id/startData_issue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_start_date" />
+                    android:text="@string/txt_start_date"
+                    android:textColor="#003366"
+                    android:textStyle="bold"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -70,13 +101,17 @@
             android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="End Date: " />
+                    android:text="End Date: "
+                    android:textColor="#49c4af" />
                 <TextView
                     android:id="@+id/endData_issue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_end_date" />
+                    android:text="@string/txt_end_date"
+                    android:textColor="#003366"
+                    android:textStyle="bold"/>
         </LinearLayout>
-</LinearLayout>
+        </LinearLayout>
+</RelativeLayout>
