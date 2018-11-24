@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -30,10 +29,10 @@ public class ScheduleFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Projects> projects = new ArrayList<Projects>();
-        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"));
-        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"));
-        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"));
-        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"));
+        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"/*,R.drawable.red*/));
+        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"/*,R.drawable.blue*/));
+        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"/*,R.drawable.green*/));
+        projects.add(new Projects("Bridge Reconstruct","Puumiehenkuja 5, 02150 Espoo","there is build any bridge","11/11/2018","11/12/2018"/*,R.drawable.blue*/));
 
         ProjectsAdapter adapter = new ProjectsAdapter(getActivity(), projects);
 

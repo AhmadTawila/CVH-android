@@ -39,6 +39,8 @@ public class ProjectsAdapter extends ArrayAdapter<Projects>{
         TextView projectEndDate = (TextView) listItemView.findViewById(R.id.endData_issue);
         projectEndDate.setText(currentProject.getEndDate());
 
+        //ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        //imageView.setImageResource(currentProject.getImageResourceId());
 
         return listItemView;
     }

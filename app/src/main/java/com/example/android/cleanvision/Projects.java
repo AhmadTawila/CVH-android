@@ -11,13 +11,16 @@ public class Projects {
 
     String endDate;
 
+    //private int mImageResourceId;
 
-    public Projects(String ti, String add, String desc, String startdate, String enddate){
+
+    public Projects(String ti, String add, String desc, String startdate, String enddate/*, int image*/){
         title = ti;
         address = add;
         description = desc;
         startDate = startdate;
         endDate = enddate;
+       // mImageResourceId = image;
     }
 
     public String getTitle() {
@@ -39,4 +42,6 @@ public class Projects {
     public String getEndDate() {
         return endDate;
     }
+
+    //public int getImageResourceId(){return  mImageResourceId;}
 }
