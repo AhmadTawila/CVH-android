@@ -15,4 +15,6 @@
     <string name="txt_address">Puumiehenkuja 5, 02150 Espoo</string>
     <string name="txt_title_address">Address:</string>
     <string name="txt_title">Bridge Reconstruct</string>
+
+    <string name="category_overview"></string>
 </resources>

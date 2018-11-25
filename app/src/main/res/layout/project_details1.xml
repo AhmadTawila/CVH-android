@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Details"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:paddingLeft="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transportation: "
+            android:textSize="20dp"
+            android:textColor="#49c4af" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bus #51 (delay 5 minutes)"
+            android:textColor="#003366"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metro #7 (delay 10 minutes)"
+            android:textColor="#003366"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street Locked"
+            android:textSize="20dp"
+            android:textColor="#49c4af" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pohjoinen Rautatiekatu [from 10:00AM - to 11:00AM]"
+            android:textColor="#003366"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contractor"
+            android:textSize="20dp"
+            android:textColor="#49c4af" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SARMAPLAN"
+            android:textColor="#003366"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Info: "
+            android:textColor="#003366"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heikki Jalmar - 09258256 "
+            android:textColor="#003366"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

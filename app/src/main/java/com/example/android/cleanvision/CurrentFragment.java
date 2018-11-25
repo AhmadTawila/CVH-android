@@ -1,6 +1,7 @@
 package com.example.android.cleanvision;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -44,6 +45,8 @@ public class CurrentFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Toast.makeText(this, "List item Clicked", Toast.LENGTH_SHORT).show();
+                Intent myIntent = new Intent(getActivity(), project_details.class);
+                CurrentFragment.this.startActivity(myIntent);
             }
         });
         return rootView;
